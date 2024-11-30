@@ -1,0 +1,69 @@
+*.bg {
+  background-image: url(Images/IMG_1450.jpg);
+  width: 100vw; ;
+  height: 100vw; 
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.logo {
+  max-width: 1%;
+}
+
+img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 10%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(26, 9, 55);
+  background-image: url(Images/BACKGROUND.JPG);
+  width: 100vw;
+  height: 100vw;
+  background-position: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0e052d;
+}
+
+.topnav a {
+  float: left;
+  color: #ffb73a;
+  text-align: middle;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 33px;
+}
+
+.topnav a:hover {
+  background-color: #08041d;
+  color: rgb(45, 45, 45);
+}
+
+.topnav a.active {
+  background-color: #d91dc3;
+  color: rgb(247, 247, 247);
+}
+
+button{
+    height: 20px; 
+    width:100px; 
+    margin: 0px 0px; 
+    position:relative;
+    top:50%; 
+    left:45%;
+}
